@@ -3,8 +3,103 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Proyecto Final</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<style>
+		#nombre{
+			float: left;
+			margin-left: 1150px;
+		}
+		button{
+			margin-left: 10px;
+		}
+		#myDropdown{
+			margin-left: 1200px;
+		}
+
+		img{
+			margin-left: 450px;		}
+		h2{
+			font-family: 'Arial';	}
+		p{
+			font-family: 'Arial';	}
+		h5{
+			font-family: 'Arial';	}	
+		li{
+			list-style: none;
+		}
+
+	</style>
 </head>
 <body>
-	<script src="js/javascript.js"></script>
+<div class="dropdown"><div id="nombre"></div>
+<button onclick="myFunction()" class="dropbtn">&#9776;</button>
+	<div id="myDropdown" class="dropdown-content">
+		<a href="Coders/coders.html">Coders</a>
+		<a href="Salir/salida.html">Salir</a>
+	</div>
+</div>
+<img src="img/logoLab.svg" width="500" height="200" alt="">
+<h2>¿Qué es Laboratoria?</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore amet, fugit rerum id veniam maxime expedita, perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, velit quisquam fugiat a ipsum ad molestias officiis, animi sed illo. Quae, iusto. Deleniti veniam molestias dolore rem autem temporibus, corporis dolorum culpa adipisci ipsum! Soluta id est commodi aut assumenda, consequuntur ad accusantium quidem?</p>
+<h5>Temas</h5>
+<input type="button" value="Sprint1" onclick="mostrarOcultarSprint('Sprint1')">
+<input type="button" value="Sprint2" onclick="mostrarOcultarSprint('Sprint2')">
+<input type="button" value="Sprint3" onclick="mostrarOcultarSprint('Sprint3')">
+<div id="Sprint1">
+	<h3>Sprint 1: Introducción a Javascript</h3>
+	<nav>
+		<ol>
+			<li>Fundamentos de Programación</li>
+			<li>Funciones</li>
+			<li>Arreglos</li>
+			<li>Objetos</li>
+		</ol>
+	</nav>
+	<hr>
+	<h3>Quiz</h3>
+	<h3>Exiten dos tipos de funciones</h3>
+	<li><input type="radio" name="" value="">Expresadas y declaradas</li>
+	<li><input type="radio" name="" value="">Explícitas y declaradas</li>
+	<li><input type="radio" name="" value="">Expresadas y derivadas</li>
+	<h3>Elije una propiedad de los arreglos</h3>
+	<li><input type="radio" name="" value="">clear</li>
+	<li><input type="radio" name="" value="">pop</li>
+	<li><input type="radio" name="" value="">add</li>
+	<h3>Un objeto tiene _____ y _____</h3>
+	<li><input type="radio" name="" value="">números y letras</li>
+	<li><input type="radio" name="" value="">partes y validaciones</li>
+	<li><input type="radio" name="" value="">propiedades y valores</li>
+	<button type="submit">Enviar</button>
+</div>
+<div id="Sprint2">
+	<h3>Sprint 2: Introducción al desarrollo web y construcción de páginas web</h3>
+	<nav>
+		<ol>
+			<li>Ciclo de vida del desarrollo web y arquitectura básica cliente/servidor/Configuración del ambiente de trabajo e introducción a git.</li>
+			<li>HTML y Javascript en el navegador</li>
+			<li>Pruebas Unitarias</li>
+			<li>Git /Resolución de conflictos / Branching model</li>
+			<li>DOM</li>
+		</ol>
+	</nav>
+	<hr>
+	<h3>Quiz</h3>
+	<h3>¿Cúal es el comamdo para inicial un repositorio desde la consola?</h3>
+	<li><input type="radio" name="" value="">git init.</li>
+	<li><input type="radio" name="" value="">git init</li>
+	<li><input type="radio" name="" value="">git init add</li>
+	<h3>¿Cúal es la finalidad de hacer una prueba unitaria?</h3>
+	<li><input type="radio" name="" value="">Comprobar que el código funciona correctamente</li>
+	<li><input type="radio" name="" value="">Darle valores a los parámetroos de dichas funciones</li>
+	<li><input type="radio" name="" value="">No tiene ningun fin</li>
+	<h3>¿Qué significa DOM?</h3>
+	<li><input type="radio" name="" value="">Dual Object Model</li>
+	<li><input type="radio" name="" value="">Document Object Model</li>
+	<li><input type="radio" name="" value="">Document Obsolet Model</li>
+	<button type="submit">Enviar</button>
+</div>
+<div id="Sprint3"></div>
+
+<script src = "js/javascript.js"></script>	
 </body>
 </html>
