@@ -31,6 +31,8 @@ var mostrarOcultarSprint = function (sprint){
 	} else{
 		sprints.style.display = "block";
 	}
-
-//	sprint1.innerHTML= 
 }
+function Envio1(){
+	
+}
+
