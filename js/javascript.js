@@ -1,7 +1,7 @@
 function nombre(){
 	var nombre = document.getElementById("nombre");
 	var ingreso = prompt("Ingrese su nombre de Usuario");
-	nombre.innerHTML = "Hola "+ ingreso;
+	nombre.innerHTML = "Hola coder "+ ingreso;
 
 }nombre();
 
