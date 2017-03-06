@@ -40,3 +40,10 @@
 .show {
   display:block;
 }
+
+#Sprint1{
+  display: none;
+}
+#Sprint3{
+  display: none;
+}

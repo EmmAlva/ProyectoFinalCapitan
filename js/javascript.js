@@ -22,3 +22,15 @@ window.onclick = function(event) {
 		}
 	}
 }
+
+var mostrarOcultarSprint = function (sprint){
+	var sprints = document.getElementById(sprint);
+
+	if (sprints.style.display == "block" ) {
+		sprints.style.display = "none";
+	} else{
+		sprints.style.display = "block";
+	}
+
+//	sprint1.innerHTML= 
+}
