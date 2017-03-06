@@ -3,8 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Proyecto Final</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<style>
+		#nombre{
+			float: left;
+			margin-left: 1150px;
+		}
+		button{
+			margin-left: 10px;
+		}
+		#myDropdown{
+			margin-left: 1200px;
+		}
+
+		img{
+			margin-left: 450px;		}
+		h2{
+			font-family: 'Arial';	}
+		p{
+			font-family: 'Arial';	}
+		h5{
+			font-family: 'Arial';	}	
+		li{
+			list-style: none;
+		}
+
+	</style>
 </head>
 <body>
-	<script src="js/javascript.js"></script>
+<div class="dropdown"><div id="nombre"></div>
+<button onclick="myFunction()" class="dropbtn">&#9776;</button>
+	<div id="myDropdown" class="dropdown-content">
+		<a href="#">Perfil</a>
+		<a href="#l">Salir</a>
+	</div>
+</div>
+<img src="img/logoLab.svg" width="500" height="200" alt="">
+<h2>¿Qué es Laboratoria?</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore amet, fugit rerum id veniam maxime expedita, perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, velit quisquam fugiat a ipsum ad molestias officiis, animi sed illo. Quae, iusto. Deleniti veniam molestias dolore rem autem temporibus, corporis dolorum culpa adipisci ipsum! Soluta id est commodi aut assumenda, consequuntur ad accusantium quidem?</p>
+<h5>Temas</h5>
+<input type="button" value="Srpint1" onclick="mostrarOcultarSprint(Sprint1)">
+<input type="button" value="Srpint2" onclick="mostrarOcultarSprint(Srpint2)">
+<input type="button" value="Srpint3" onclick="mostrarOcultarSprint(Srpint3)">
+
+<script src = "js/javascript.js"></script>	
 </body>
 </html>
